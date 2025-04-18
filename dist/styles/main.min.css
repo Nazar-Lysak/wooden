@@ -1,0 +1,151 @@
+/* base reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* responsime images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  min-height: calc(var(--vh, 1vh) * 100);
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1166px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  background-color: antiquewhite;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .header-logo a {
+  padding: 10px 0;
+}
+.header .container li a {
+  display: inline-block;
+  padding: 10px 8px;
+}
+.header .container .header-nav-wrapper {
+  flex-grow: 1;
+  padding-right: 80px;
+}
+.header .container .header-nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.header .container .header-socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer {
+  background-color: #1E1823;
+  color: #FAFAFA;
+  padding: 50px 0;
+}
+
+.hero-banner {
+  background-color: antiquewhite;
+  padding: 50px 0;
+}
+
+.proposals {
+  background-color: #1E1823;
+  color: #FAFAFA;
+  padding: 50px 0;
+}
+
+.about {
+  padding: 50px 0;
+  background-color: rgb(180, 147, 243);
+}
+
+.materials {
+  padding: 50px 0;
+  background-color: rgb(132, 248, 151);
+}
+
+.reports {
+  padding: 50px 0;
+  background-color: rgb(206, 225, 241);
+}
+
+.contacts {
+  padding: 50px 0;
+  background-color: rgb(225, 250, 135);
+}

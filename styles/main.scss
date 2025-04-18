@@ -1,0 +1,14 @@
+@use "./general.scss" as *;
+
+// Layout
+@use "./layout/header.scss" as *;
+@use "./layout/footer.scss" as *;
+
+// components
+@use "./components/hero-banner.scss" as *;
+@use "./components/proposals.scss" as *;
+@use "./components/about.scss" as *;
+@use "./components/materials.scss" as *;
+@use "./components/reports.scss" as *;
+@use "./components/contacts.scss" as *;
+
