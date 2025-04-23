@@ -19,6 +19,10 @@
 }
 
 .header-nav-wrapper {
+
+    .close-btn {
+        display: none;
+    }
     .header-nav-list {
         display: flex;
         list-style: none;
@@ -95,6 +99,37 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        .close-btn {
+            display: block;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            width: 48px;
+            cursor: pointer;
+            background-color: transparent;
+            width: 40px;
+            height: 40px;
+            outline: none;
+            border: none;
+            
+            .close-btn-stroke {
+                height: 2px;
+                background-color: aliceblue;
+                border-radius: 10px;
+                display: block;
+                position: relative;
+            }            
+        }
+
+        .close-btn-stroke:first-child {
+            transform: rotate(45deg);
+        }
+
+        .close-btn-stroke:last-child {
+            transform: rotate(-45deg);
+            top: -2px;
+        }
     }
 
     .header-nav-list {

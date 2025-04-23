@@ -46,9 +46,14 @@ const swiperReports= new Swiper('.reports__swiper', {
 const headerNavLinks = document.querySelectorAll('.header-nav-item a');
 const burgerMenu = document.getElementById('burger-menu');
 const navWrapper = document.querySelector('.header-nav-wrapper');
+const closeBurger = document.querySelector('.close-btn');
 
 burgerMenu.addEventListener('click', function() {
   navWrapper.classList.toggle('open');
+});
+
+closeBurger.addEventListener('click', () => {
+  navWrapper.classList.remove('open');
 });
   
 headerNavLinks.forEach(link => {
