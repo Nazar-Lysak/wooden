@@ -1,6 +1,54 @@
 @use "../variables.scss" as *;
 
 .contacts {
-    padding: 50px 0;
-    background-color: rgb(225, 250, 135);
+  padding: 70px 0;
+  background-color: #f4f4f4;
+
+  .contacts__title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+
+  .contacts__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;   
+
+    .contacts__info {
+      width: 100%;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+      h3 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .contact-icon {
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+        }
+
+        .contact-link {
+          font-size: 1.2rem;
+          color: #333;
+          text-decoration: none;
+
+          &:hover {
+            color: #5cba6b;
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,129 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wooden | Handcrafted Wooden Products</title>
-    <link rel="stylesheet" href="./lib/modern-normalize.css">
-    <link rel="stylesheet" href="./dist/styles/main.min.css">
-</head>
-<body class="body">
-    <header class="header">
-        <div class="container">
-            <div class="header-logo">
-                LOGO
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Wooden | Handcrafted Wooden Products</title>
+      <link rel="stylesheet" href="./lib/modern-normalize.css">
+      <link rel="stylesheet" href="./lib/swiper/swiper.min.css">
+      <script src="./lib/swiper/swiper.min.js"></script>
+      <link rel="stylesheet" href="./dist/styles/main.min.css">
+   </head>
+   <body class="body">
+      <header class="header">
+         <div class="container">
+             <div class="header-logo">
+                 LOGO
+             </div>
+             <nav class="header-nav-wrapper">
+                 <ul class="header-nav-list">
+                     <li class="header-nav-item">
+                         <a href="#proposals">Пропозиції</a>
+                     </li>
+                     <li class="header-nav-item">
+                         <a href="#about">Про нас</a>
+                     </li>
+                     <li class="header-nav-item">
+                         <a href="#materials">Матеріали</a>
+                     </li>
+                     <li class="header-nav-item">
+                         <a href="#reports">Фото</a>
+                     </li>
+                     <li class="header-nav-item">
+                         <a href="#contacts">Контакти</a>
+                     </li>
+                 </ul>
+             </nav>
+             <ul class="header-socials-list">
+                 <li class="header-socials-item">
+                     <a href="#">Facebook</a>
+                 </li>
+                 <li class="header-socials-item">
+                     <a href="#">Telegram</a>
+                 </li>
+             </ul>
+             <div class="header-burger" id="burger-menu">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+             </div>
+         </div>
+     </header>
+     
+      <main class="main">
+         <!-- #region hero-banner -->
+         <section id="hero-banner" class="hero-banner">
+            <div class="swiper hero-swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <img src="./images/custom/hero-banner/banner-1.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/custom/hero-banner/banner-2.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/custom/hero-banner/banner-3.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/custom/hero-banner/banner-4.png" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/custom/hero-banner/banner-5.jpg" />
+                  </div>
+               </div>
             </div>
-            <nav class="header-nav-wrapper">
-                <ul class="header-nav-list">
-                    <li class="header-nav-item">
-                        <a href="#proposals">
-                            Пропозиції
-                        </a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="#about">
-                            Про нас
-                        </a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="#materials">
-                            Матеріали
-                        </a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="#reports">
-                            Фото
-                        </a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="#contacts">
-                            Контакти
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="header-socials-list">
-                <li class="header-socials-item">
-                    <a href="#">
-                        Facebook
-                    </a>
-                </li>
-                <li class="header-socials-item">
-                    <a href="">
-                        Telegram
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <main class="main">
-        <!-- #region hero-banner -->
-        <section id="hero-banner" class="hero-banner">
-            <div class="container">
-                <h1>
-                    Головний баннер
-                </h1>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+               <h1>Дерев'яні витвори мистецтва</h1>
+               <p>Наші вироби - це поєднання природної краси дерева та майстерності виготовлення. Столи, двері та меблі для вашого дому.</p>
             </div>
-        </section>
-        <!-- #endregion hero-banner -->
-
-        <!-- #region proposals -->
+         </section>
+         <!-- #endregion hero-banner -->
+         <!-- #region proposals -->
          <section id="proposals" class="proposals">
             <div class="container">
-                <h2>
-                    Пропозиції
-                </h2>
+               <h2 class="proposals__title">Наші вироби</h2>
+               <div class="proposals__grid">
+                  <div class="proposal-card">
+                     <img src="https://th.bing.com/th/id/OIP.pFTHBA0dXO3ldQBAFYiXVwHaLH?rs=1&pid=ImgDetMain" alt="Дерев’яні двері" />
+                     <h3>Дерев’яні двері</h3>
+                     <p>Надійні, стильні та екологічні рішення для вашого дому чи офісу.</p>
+                  </div>
+                  <div class="proposal-card">
+                     <img src="https://i.pinimg.com/originals/20/93/eb/2093eb8f7e7c6b1c68091cf47dcd98e6.jpg" alt="Масивні столи" />
+                     <h3>Масивні столи</h3>
+                     <p>Авторські обідні, письмові та журнальні столи з натурального дерева.</p>
+                  </div>
+                  <div class="proposal-card">
+                     <img src="https://idea.24tv.ua/resources/photos/news/1200x675_DIR/202101/1520167.jpg?202101184604" alt="Індивідуальні проєкти" />
+                     <h3>Індивідуальні проєкти</h3>
+                     <p>Втілимо будь-яку ідею — від ескізу до готового виробу з душею.</p>
+                  </div>
+               </div>
             </div>
          </section>
          <!-- #endregion proposals -->
-
-        <!-- #region about -->
-        <section id="about" class="about">
-            <div class="container">
-                <h2>
-                    Про нас
-                </h2>
+         <!-- #region about -->
+         <section id="about" class="about">
+            <div class="container about__wrapper">
+               <div class="about__content">
+                  <h2>Про нас</h2>
+                  <p>
+                     Ми створюємо унікальні вироби з дерева, вкладаючи душу в кожну деталь. Кожен наш продукт — це результат
+                     ручної праці, якісних матеріалів та любові до природного стилю.
+                  </p>
+                  <p>
+                     Від маленьких декорацій до масивних меблів — ми об'єднуємо традиції з сучасним дизайном, щоб ваш дім став
+                     ще теплішим і затишнішим.
+                  </p>
+               </div>
+               <div class="about__image">
+                  <img src="https://nauka.club/wp-content/auploads/928611/fullsize.jpg" alt="Майстер за роботою" />
+               </div>
             </div>
-        </section>
-        <!-- #endregion reports -->
-
-        <!-- #region materials -->
-        <section id="materials" class="materials">
+         </section>
+         <!-- #endregion reports -->
+         <!-- #region materials -->
+         <section id="materials" class="materials">
             <div class="container">
-                <h2>
-                    Матеріали з якими працюємо
-                </h2>
+               <h2 class="materials__title">Матеріали, з якими працюємо</h2>
+               <div class="materials__grid">
+                  <div class="material-card">
+                     <img src="https://www.cascadetubes.com/wp/wp-content/uploads/2020/11/Boards.jpg" alt="Дуб">
+                     <h3>Дуб</h3>
+                     <p>Щільна, вишукана деревина з унікальною текстурою — популярна для дверей і масивних меблів.</p>
+                  </div>
+                  <div class="material-card">
+                     <img src="https://th.bing.com/th/id/OIP.L4Lh4hsiblz7efm-5IwnSAHaFx?rs=1&pid=ImgDetMain" alt="Ясен">
+                     <h3>Ясен</h3>
+                     <p>Гнучкий у формуванні, світлий і сучасний матеріал для стильних інтер'єрів.</p>
+                  </div>
+                  <div class="material-card">
+                     <img src="https://i.pinimg.com/originals/87/05/3f/87053f63e05c91b9b8d99e23aa6af93a.jpg" alt="Сосна">
+                     <h3>Сосна</h3>
+                     <p>Доступна, легка та ароматна деревина — ідеальна для домашніх виробів та декору.</p>
+                  </div>
+                  <div class="material-card">
+                     <img src="https://bigfoto.name/photo/uploads/posts/2023-03/1678897855_bigfoto-name-p-mebel-tsvet-buk-83.jpg" alt="Бук">
+                     <h3>Бук</h3>
+                     <p>Стійкий до зношування, твердий матеріал з гладкою текстурою — для довговічних меблів.</p>
+                  </div>
+                  <div class="material-card">
+                     <img src="https://th.bing.com/th/id/OIP.XPPqgEjXYMWePP-dhV2pcwHaE8?rs=1&pid=ImgDetMain" alt="Горіх">
+                     <h3>Горіх</h3>
+                     <p>Темна, елітна деревина з глибокими відтінками — вибір для ексклюзивних проектів.</p>
+                  </div>
+                  <div class="material-card">
+                     <img src="https://th.bing.com/th/id/OIP.smcLc0iDrWxP84wnSSjoYQHaHa?w=500&h=500&rs=1&pid=ImgDetMain" alt="МДФ">
+                     <h3>МДФ</h3>
+                     <p>Гладкий, практичний матеріал для сучасних поверхонь, з ідеальною формою і покриттям.</p>
+                  </div>
+               </div>
             </div>
-        </section>
-        <!-- #endregion reports -->
-
-        <!-- #region reports -->
-        <section id="reports" class="reports">
+         </section>
+         <!-- #endregion reports -->
+         <!-- #region reports -->
+         <section id="reports" class="reports">
             <div class="container">
-                <h2>
-                    Фото наших робіт
-                </h2>
+               <h2 class="reports__title">Фото наших робіт</h2>
+               <div class="swiper-container reports__swiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <img src="https://ireland.apollo.olxcdn.com/v1/files/e9i7bchh7h5d-UA/image;s=2000x1500" alt="Робота 1" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="https://th.bing.com/th/id/OIP.pa_YPbes45wHTO4pKpueDwHaFj?rs=1&pid=ImgDetMain" alt="Робота 2" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="https://th.bing.com/th/id/OIP.EvyqIw5aiSFvgarXePUzxAHaE1?w=1000&h=654&rs=1&pid=ImgDetMain" alt="Робота 3" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="https://bigfoto.name/photo/uploads/posts/2023-09/1695508479_bigfoto-name-p-komod-derevyannii-71.jpg" alt="Робота 4" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="https://cdn.27.ua/sc--media--prod/default/26/8a/e7/268ae708-20c3-43fd-8362-29a7cc8bdbed.png" alt="Робота 5" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="https://th.bing.com/th/id/OIP.qz7KYJtajHPzIlv8au7AwgHaFj?rs=1&pid=ImgDetMain" alt="Робота 6" />
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+               </div>
             </div>
-        </section>
-        <!-- #endregion reports -->
-
-        <!-- #region contacts -->
-        <section id="contacts" class="contacts">
+         </section>
+         <!-- #endregion reports -->
+         <!-- #region contacts -->
+         <section id="contacts" class="contacts">
             <div class="container">
-                <h2>
-                    Контакти
-                </h2>
+               <h2 class="contacts__title">Контакти</h2>
+               <div class="contacts__content">
+                  <div class="contacts__info">
+                     <h3>Наші контактні дані</h3>
+                     <div class="contact-item">
+                        <img src="./images/telegram-icon.png" alt="Telegram" class="contact-icon" />
+                        <a href="https://t.me/yourusername" target="_blank" class="contact-link">Telegram</a>
+                     </div>
+                     <div class="contact-item">
+                        <img src="./images/phone-icon.png" alt="Phone" class="contact-icon" />
+                        <a href="tel:+380XXXXXXXXX" class="contact-link">+38 (0XX) XXX-XX-XX</a>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </section>
-        <!-- #endregion reports -->
-        
-        
-    </main>
-    <footer class="footer">
-        <div class="container">
-            footer  
-        </div>
-    </footer>    
-    <script src="./dist/scripts/main.min.js"></script>
-</body>
+         </section>
+         <!-- #endregion reports -->
+      </main>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__top">
+               <div class="footer__brand">
+                  <h3>WoodCraft</h3>
+                  <p>Виготовлення дерев'яних виробів на замовлення</p>
+               </div>
+               <div class="footer__socials">
+                  <h4>Ми в соціальних мережах</h4>
+                  <ul>
+                     <li><a href="#" target="_blank"><img src="./images/icons/facebook-icon.svg" alt="Facebook" /></a></li>
+                     <li><a href="#" target="_blank"><img src="./images/icons/instagram-icon.svg" alt="Instagram" /></a></li>
+                     <li><a href="#" target="_blank"><img src="./images/icons/twitter-icon.svg" alt="Twitter" /></a></li>
+                     <li><a href="#" target="_blank"><img src="./images/icons/linkedin-icon.svg" alt="LinkedIn" /></a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer__bottom">
+               <div class="footer__links">
+                  <nav class="header-nav-wrapper">
+                     <ul class="header-nav-list">
+                        <li class="header-nav-item">
+                           <a href="#proposals">
+                           Пропозиції
+                           </a>
+                        </li>
+                        <li class="header-nav-item">
+                           <a href="#about">
+                           Про нас
+                           </a>
+                        </li>
+                        <li class="header-nav-item">
+                           <a href="#materials">
+                           Матеріали
+                           </a>
+                        </li>
+                        <li class="header-nav-item">
+                           <a href="#reports">
+                           Фото
+                           </a>
+                        </li>
+                        <li class="header-nav-item">
+                           <a href="#contacts">
+                           Контакти
+                           </a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="footer__newsletter">
+                  <h4>Підписка на новини</h4>
+                  <form action="#" method="POST">
+                     <input type="email" placeholder="Ваша електронна пошта" required />
+                     <button type="submit" class="btn">Підписатися</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="./dist/scripts/main.min.js"></script>
+   </body>
 </html>
