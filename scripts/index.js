@@ -25,10 +25,6 @@ const swiperReports= new Swiper('.reports__swiper', {
     spaceBetween: 30,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
     effect: 'fade',
     fadeEffect: {
       crossFade: true,

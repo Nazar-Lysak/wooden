@@ -9,7 +9,7 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+    margin: 0
 }
 ul,
 ol {
@@ -62,7 +62,6 @@ html {
 
 .body {
     min-height: calc(var(--vh, 1vh) * 100);
-    background-color: $light-color;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

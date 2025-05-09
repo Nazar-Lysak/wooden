@@ -1,5 +1,7 @@
+@use "../variables.scss" as *;
+
 .header {
-    background-color: #333;
+    background-color: $global-color-primary;
     color: white;
     padding: 20px 0;
 
@@ -39,7 +41,7 @@
             transition: color 0.3s ease;
 
             &:hover {
-                color: #5cba6b;
+                color: $global-color-secondary;
             }
         }
     }
@@ -99,6 +101,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: $global-color-primary;
 
         .close-btn {
             display: block;

@@ -1,7 +1,7 @@
 @use "../variables.scss" as *;
 
 .footer {
-  background-color: #333;
+  background-color: $global-color-primary;
   color: white;
   padding: 40px 0;
   font-size: 1rem;
@@ -81,41 +81,6 @@
 
           &:hover {
             color: #fff;
-          }
-        }
-      }
-    }
-
-    .footer__newsletter {
-      width: 40%;
-      h4 {
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-      }
-
-      form {
-        display: flex;
-        gap: 10px;
-
-        input {
-          padding: 10px;
-          font-size: 1rem;
-          border: none;
-          border-radius: 5px;
-          width: 70%;
-        }
-
-        .btn {
-          padding: 10px 20px;
-          background-color: #5cba6b;
-          color: white;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-          transition: background-color 0.3s ease;
-
-          &:hover {
-            background-color: #4b9f5b;
           }
         }
       }
